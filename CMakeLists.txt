@@ -16,7 +16,7 @@ target_include_directories(microprofiler PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/incl
 	
 # Add ut subfolder as private dependency.
 # It will thus not be available to parent projects.
-target_include_directories(microprofiler PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include/microprofiler)
+target_include_directories(microprofiler PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include/microprofile)
 
 # Require support for at least C++14.
 set_property(TARGET microprofiler PROPERTY CXX_STANDARD 14)

@@ -1,5 +1,5 @@
 #define MICROPROFILE_IMPL
-#include "microprofile.h"
+#include <microprofile.h>
 #if MICROPROFILE_ENABLED
 
 
@@ -7648,7 +7648,7 @@ void MicroProfileGpuShutdown()
 
 #endif //#if MICROPROFILE_ENABLED
 
-#include "microprofile_html.h"
+#include <microprofile_html.h>
 
 #if 0
 void uprintf(const char* fmt, ...)
